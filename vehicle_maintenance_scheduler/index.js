@@ -1,9 +1,4 @@
-const { Log } = require("./logging_middleware");
 const { getDepots, getVehicles } = require("./api");
-const { solveKnapsack } = require("./scheduler");
-
-async function main() {
-  const { getDepots, getVehicles } = require("./api");
 const { solveKnapsack } = require("./scheduler");
 const { Log } = require("./logging_middleware");
 
